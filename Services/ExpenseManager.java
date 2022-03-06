@@ -68,7 +68,7 @@ class ExpenseManager{
             System.out.println("Showing balances for user - "+ userMap.get(allBalances.getKey()).getName());
           	isEmpty = true;
             for(Map.Entry<String, Double> userBalance: allBalances.getValue().entrySet()) {
-                if(userBalance.getValue() > 0){
+                if(userBalance.getValue() != 0){
                     isEmpty = false;
                     printBalance(allBalances.getKey(), userBalance.getKey(), userBalance.getValue());
                 }

@@ -1,4 +1,6 @@
-# Spliltwise Application
+# Splitwise Application
+
+[Problem Statement](https://www.notion.so/mdanas/Design-SplitWise-28ff608ea5244fd883b430619a5ef0b6)
 
 ## Instruction to run the application
 1. Run the Driver.java file inside Services/
